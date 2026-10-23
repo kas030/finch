@@ -57,7 +57,7 @@ assert stamp["archive_sha256"] == expected[platform], "PDFium archive provenance
 assert hashlib.sha256((root / "lib/libpdfium.dylib").read_bytes()).hexdigest() == stamp["library_sha256"], "PDFium library checksum mismatch"
 PY
 for binary in "$build/finch" "$pdfium/lib/libpdfium.dylib"; do
-    lipo -verify_arch "$binary_arch" "$binary"
+    lipo "$binary" -verify_arch "$binary_arch"
 done
 output="$root/dist/Finch-$version-$platform"
 zip="$output.zip"
