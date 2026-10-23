@@ -1,0 +1,20 @@
+Finch third-party license materials
+
+Finch's original code uses MIT OR Apache-2.0; see the root LICENSE files.
+Third-party code retains its upstream licenses and notices.
+
+third-party/sources.json records the source URL, pinned revision and SHA-256
+of supplemental license texts missing from some Cargo source distributions.
+Packaging scripts verify these bytes and collect the target's Cargo dependency
+licenses plus the bundled PDFium archive's LICENSE and licenses directory.
+The generated inventory includes build/test dependencies and is not a list of
+only the code linked into the final executable.
+
+Some historical MIT-licensed packages lack a standalone upstream copyright
+statement. Their directories retain a NOTICE explaining the known author and
+the use of SPDX's standard MIT template. Template placeholders are original;
+they are not an assertion of a fabricated copyright year or holder. Preserve
+these notices and review the corresponding upstream materials for distribution.
+
+Each dependency is governed by its own license. These supplementary materials
+do not replace the upstream copyright statements or grant additional rights.

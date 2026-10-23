@@ -1,0 +1,7 @@
+objc2-io-surface 0.3.2
+
+The upstream LICENSE.md is preserved verbatim, including its licensing notes.
+This package declares MIT as an available license in Cargo metadata.
+LICENSE-MIT-STANDARD supplies the unmodified standard MIT text from SPDX;
+it is not an upstream copyright notice. Template placeholders are unchanged.
+Package authors and source are listed in THIRD-PARTY-NOTICES.txt.

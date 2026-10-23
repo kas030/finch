@@ -1,0 +1,15 @@
+[package]
+name = "finch-plugin-api"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+license = "MIT OR Apache-2.0"
+description = "Lightweight versioned wire types for Finch executable plugins"
+readme = false
+include = ["src/**", "tests/**", "LICENSE-MIT", "LICENSE-APACHE", "Cargo.toml"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+serde_json = "1"

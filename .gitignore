@@ -1,0 +1,29 @@
+/target/
+/.tools/
+/runtime/
+/dist/
+/artifacts/
+*.log
+.DS_Store
+
+# Local development notes; README will be reviewed and submitted later.
+/docs/
+/README.md
+/.codex/
+/.agents/
+
+# Local application data and credentials are not source assets.
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+session.json
+session.json.bak
+restore.inprogress
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+*.pdf
+!/tests/fixtures/*.pdf
+!/crates/finch-pdf/tests/fixtures/*.pdf

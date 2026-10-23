@@ -1,0 +1,274 @@
+[
+  {
+    "package": "clipboard-win",
+    "version": "5.4.3",
+    "file": "clipboard-win-5.4.3/LICENSE",
+    "url": "https://raw.githubusercontent.com/DoumanAsh/clipboard-win/ed27008ae5d1f10cfbb266de039f0fb35fd05a56/LICENSE",
+    "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+  },
+  {
+    "package": "profiling",
+    "version": "1.0.18",
+    "file": "profiling-1.0.18/LICENSE-MIT",
+    "url": "https://raw.githubusercontent.com/aclysma/profiling/8271551172eb6fa4cba47369aedd93790c623df9/LICENSE-MIT",
+    "sha256": "c8167fdeeed46d3f244d3f85c5bf998ce889343691c32be2c61a8bc4b5c08333"
+  },
+  {
+    "package": "profiling",
+    "version": "1.0.18",
+    "file": "profiling-1.0.18/LICENSE-APACHE",
+    "url": "https://raw.githubusercontent.com/aclysma/profiling/8271551172eb6fa4cba47369aedd93790c623df9/LICENSE-APACHE",
+    "sha256": "10d30a673cd5e9349bdc02aeb48f14b3386d27d0da32df8f0a555d4aa16aa551"
+  },
+  {
+    "package": "svg_fmt",
+    "version": "0.4.5",
+    "file": "svg_fmt-0.4.5/LICENSE",
+    "url": "https://raw.githubusercontent.com/nical/rust_debug/93f414cd572b5c2781df93dbdc068ed13443d05a/LICENSE",
+    "sha256": "7e98bed7f100747aaae7d82ab94fbe6b76fd6b84b09a3aaa413bff8196d0fbb1"
+  },
+  {
+    "package": "hexf-parse",
+    "version": "0.2.1",
+    "file": "hexf-parse-0.2.1/LICENSE-CC0",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/CC0-1.0.txt",
+    "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+  },
+  {
+    "package": "block",
+    "version": "0.1.6",
+    "file": "block-0.1.6/LICENSE-MIT-STANDARD",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt",
+    "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+    "basis": "Cargo.toml declares MIT; upstream tagged source has no standalone license text. See NOTICE."
+  },
+  {
+    "package": "dispatch",
+    "version": "0.2.0",
+    "file": "dispatch-0.2.0/LICENSE-MIT-STANDARD",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt",
+    "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+    "basis": "Cargo.toml declares MIT; upstream tagged source has no standalone license text. See NOTICE."
+  },
+  {
+    "package": "malloc_buf",
+    "version": "0.0.6",
+    "file": "malloc_buf-0.0.6/LICENSE-MIT-STANDARD",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt",
+    "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+    "basis": "Cargo.toml declares MIT; upstream tagged source has no standalone license text. See NOTICE."
+  },
+  {
+    "package": "block2",
+    "version": "0.5.1",
+    "file": "block2-0.5.1/LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/madsmtm/objc2/4fc083f1c6d6784577e38b0ee8dbd344481e2fd2/LICENSE.txt",
+    "sha256": "e353f37b12aefbb9f9b29490e837cfee05d9bda70804b3562839a3285c1df1e5"
+  },
+  {
+    "package": "block2",
+    "version": "0.6.2",
+    "file": "block2-0.6.2/LICENSE.md",
+    "url": "https://raw.githubusercontent.com/madsmtm/objc2/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+    "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54"
+  },
+  {
+    "package": "dispatch2",
+    "version": "0.3.1",
+    "file": "dispatch2-0.3.1/LICENSE.md",
+    "url": "https://raw.githubusercontent.com/madsmtm/objc2/8852b424193ca41602281b3d7540d7c8ed51e49a/LICENSE.md",
+    "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54"
+  },
+  {
+    "package": "objc-sys",
+    "version": "0.3.5",
+    "file": "objc-sys-0.3.5/LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/madsmtm/objc2/4fc083f1c6d6784577e38b0ee8dbd344481e2fd2/LICENSE.txt",
+    "sha256": "e353f37b12aefbb9f9b29490e837cfee05d9bda70804b3562839a3285c1df1e5"
+  },
+  {
+    "package": "objc2",
+    "version": "0.5.3",
+    "file": "objc2-0.5.3/LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/madsmtm/objc2/5237cbf081d04ef75a1f6a207b4018e7c1ae7438/LICENSE.txt",
+    "sha256": "e353f37b12aefbb9f9b29490e837cfee05d9bda70804b3562839a3285c1df1e5"
+  },
+  {
+    "package": "objc2",
+    "version": "0.6.5",
+    "file": "objc2-0.6.5/LICENSE.md",
+    "url": "https://raw.githubusercontent.com/madsmtm/objc2/d7d2fa23ceaa5e6096c923b081040e5d81b3b9df/LICENSE.md",
+    "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54"
+  },
+  {
+    "package": "objc2-app-kit",
+    "version": "0.2.2",
+    "file": "objc2-app-kit-0.2.2/LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/madsmtm/objc2/e282618be4c3a3b9542957e0c8540e9588472ce8/LICENSE.txt",
+    "sha256": "e353f37b12aefbb9f9b29490e837cfee05d9bda70804b3562839a3285c1df1e5"
+  },
+  {
+    "package": "objc2-app-kit",
+    "version": "0.3.2",
+    "file": "objc2-app-kit-0.3.2/LICENSE.md",
+    "url": "https://raw.githubusercontent.com/madsmtm/objc2/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+    "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54"
+  },
+  {
+    "package": "objc2-core-data",
+    "version": "0.2.2",
+    "file": "objc2-core-data-0.2.2/LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/madsmtm/objc2/e282618be4c3a3b9542957e0c8540e9588472ce8/LICENSE.txt",
+    "sha256": "e353f37b12aefbb9f9b29490e837cfee05d9bda70804b3562839a3285c1df1e5"
+  },
+  {
+    "package": "objc2-core-foundation",
+    "version": "0.3.2",
+    "file": "objc2-core-foundation-0.3.2/LICENSE.md",
+    "url": "https://raw.githubusercontent.com/madsmtm/objc2/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+    "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54"
+  },
+  {
+    "package": "objc2-core-graphics",
+    "version": "0.3.2",
+    "file": "objc2-core-graphics-0.3.2/LICENSE.md",
+    "url": "https://raw.githubusercontent.com/madsmtm/objc2/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+    "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54"
+  },
+  {
+    "package": "objc2-core-image",
+    "version": "0.2.2",
+    "file": "objc2-core-image-0.2.2/LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/madsmtm/objc2/e282618be4c3a3b9542957e0c8540e9588472ce8/LICENSE.txt",
+    "sha256": "e353f37b12aefbb9f9b29490e837cfee05d9bda70804b3562839a3285c1df1e5"
+  },
+  {
+    "package": "objc2-encode",
+    "version": "4.1.0",
+    "file": "objc2-encode-4.1.0/LICENSE.md",
+    "url": "https://raw.githubusercontent.com/madsmtm/objc2/8d214f5477365ffcbcbb7de058c86ed9a518efb7/LICENSE.md",
+    "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54"
+  },
+  {
+    "package": "objc2-foundation",
+    "version": "0.2.2",
+    "file": "objc2-foundation-0.2.2/LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/madsmtm/objc2/e282618be4c3a3b9542957e0c8540e9588472ce8/LICENSE.txt",
+    "sha256": "e353f37b12aefbb9f9b29490e837cfee05d9bda70804b3562839a3285c1df1e5"
+  },
+  {
+    "package": "objc2-foundation",
+    "version": "0.3.2",
+    "file": "objc2-foundation-0.3.2/LICENSE.md",
+    "url": "https://raw.githubusercontent.com/madsmtm/objc2/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+    "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54"
+  },
+  {
+    "package": "objc2-io-surface",
+    "version": "0.3.2",
+    "file": "objc2-io-surface-0.3.2/LICENSE.md",
+    "url": "https://raw.githubusercontent.com/madsmtm/objc2/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+    "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54"
+  },
+  {
+    "package": "objc2-metal",
+    "version": "0.2.2",
+    "file": "objc2-metal-0.2.2/LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/madsmtm/objc2/e282618be4c3a3b9542957e0c8540e9588472ce8/LICENSE.txt",
+    "sha256": "e353f37b12aefbb9f9b29490e837cfee05d9bda70804b3562839a3285c1df1e5"
+  },
+  {
+    "package": "objc2-quartz-core",
+    "version": "0.2.2",
+    "file": "objc2-quartz-core-0.2.2/LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/madsmtm/objc2/e282618be4c3a3b9542957e0c8540e9588472ce8/LICENSE.txt",
+    "sha256": "e353f37b12aefbb9f9b29490e837cfee05d9bda70804b3562839a3285c1df1e5"
+  },
+  {
+    "package": "objc2-quartz-core",
+    "version": "0.3.2",
+    "file": "objc2-quartz-core-0.3.2/LICENSE.md",
+    "url": "https://raw.githubusercontent.com/madsmtm/objc2/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+    "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54"
+  },
+  {
+    "package": "block2",
+    "version": "0.6.2",
+    "file": "block2-0.6.2/LICENSE-MIT-STANDARD",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt",
+    "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+    "basis": "Upstream LICENSE.md links to the MIT text; retain it and supply the standard license text. See NOTICE."
+  },
+  {
+    "package": "dispatch2",
+    "version": "0.3.1",
+    "file": "dispatch2-0.3.1/LICENSE-MIT-STANDARD",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt",
+    "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+    "basis": "Upstream LICENSE.md links to the MIT text; retain it and supply the standard license text. See NOTICE."
+  },
+  {
+    "package": "objc2",
+    "version": "0.6.5",
+    "file": "objc2-0.6.5/LICENSE-MIT-STANDARD",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt",
+    "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+    "basis": "Upstream LICENSE.md links to the MIT text; retain it and supply the standard license text. See NOTICE."
+  },
+  {
+    "package": "objc2-app-kit",
+    "version": "0.3.2",
+    "file": "objc2-app-kit-0.3.2/LICENSE-MIT-STANDARD",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt",
+    "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+    "basis": "Upstream LICENSE.md links to the MIT text; retain it and supply the standard license text. See NOTICE."
+  },
+  {
+    "package": "objc2-core-foundation",
+    "version": "0.3.2",
+    "file": "objc2-core-foundation-0.3.2/LICENSE-MIT-STANDARD",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt",
+    "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+    "basis": "Upstream LICENSE.md links to the MIT text; retain it and supply the standard license text. See NOTICE."
+  },
+  {
+    "package": "objc2-core-graphics",
+    "version": "0.3.2",
+    "file": "objc2-core-graphics-0.3.2/LICENSE-MIT-STANDARD",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt",
+    "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+    "basis": "Upstream LICENSE.md links to the MIT text; retain it and supply the standard license text. See NOTICE."
+  },
+  {
+    "package": "objc2-encode",
+    "version": "4.1.0",
+    "file": "objc2-encode-4.1.0/LICENSE-MIT-STANDARD",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt",
+    "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+    "basis": "Upstream LICENSE.md links to the MIT text; retain it and supply the standard license text. See NOTICE."
+  },
+  {
+    "package": "objc2-foundation",
+    "version": "0.3.2",
+    "file": "objc2-foundation-0.3.2/LICENSE-MIT-STANDARD",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt",
+    "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+    "basis": "Upstream LICENSE.md links to the MIT text; retain it and supply the standard license text. See NOTICE."
+  },
+  {
+    "package": "objc2-io-surface",
+    "version": "0.3.2",
+    "file": "objc2-io-surface-0.3.2/LICENSE-MIT-STANDARD",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt",
+    "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+    "basis": "Upstream LICENSE.md links to the MIT text; retain it and supply the standard license text. See NOTICE."
+  },
+  {
+    "package": "objc2-quartz-core",
+    "version": "0.3.2",
+    "file": "objc2-quartz-core-0.3.2/LICENSE-MIT-STANDARD",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt",
+    "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+    "basis": "Upstream LICENSE.md links to the MIT text; retain it and supply the standard license text. See NOTICE."
+  }
+]

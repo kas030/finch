@@ -1,0 +1,17 @@
+[package]
+name = "finch-text-stats"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+description = "Example local Finch plugin that counts selected text"
+
+[dependencies]
+finch-plugin-api = { version = "0.1.0", path = "../../crates/finch-plugin-api" }
+serde_json = "1.0"
+
+[dev-dependencies]
+finch-plugin = { path = "../../crates/finch-plugin" }
+
+[[bin]]
+name = "finch-text-stats"
+path = "src/main.rs"

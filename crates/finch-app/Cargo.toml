@@ -1,0 +1,37 @@
+[package]
+name = "finch-app"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "finch"
+path = "src/main.rs"
+
+[dependencies]
+finch-core.workspace = true
+finch-pdf.workspace = true
+finch-store.workspace = true
+finch-plugin.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+crossbeam-channel.workspace = true
+iced = { version = "=0.14.0", default-features = false, features = ["wgpu-bare", "tiny-skia", "advanced", "image-without-codecs", "thread-pool", "advanced-shaping"] }
+iced_runtime = "=0.14.0"
+async-channel = "2"
+futures = { version = "0.3", features = ["thread-pool"] }
+rfd = "0.17"
+fs2 = "0.4"
+interprocess = { version = "2", default-features = false }
+webbrowser = "1"
+
+[target.'cfg(target_os = "windows")'.dependencies]
+wgpu = { version = "27", default-features = false, features = ["dx12", "wgsl", "std"] }
+
+[target.'cfg(target_os = "macos")'.dependencies]
+wgpu = { version = "27", default-features = false, features = ["metal", "wgsl", "std"] }
+
+[dev-dependencies]
+tempfile = "3"

@@ -1,0 +1,82 @@
+name: Finch desktop
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: finch-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  desktop:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-2022
+            target: x86_64-pc-windows-msvc
+            platform: windows-x86_64
+          - os: macos-15
+            target: aarch64-apple-darwin
+            platform: macos-aarch64
+          - os: macos-15-intel
+            target: x86_64-apple-darwin
+            platform: macos-x86_64
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 60
+    env:
+      CARGO_TERM_COLOR: always
+      RUST_BACKTRACE: 1
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@1.99.1
+        with:
+          components: rustfmt, clippy
+          targets: ${{ matrix.target }}
+      - uses: Swatinem/rust-cache@v2
+        with:
+          key: ${{ matrix.target }}
+      - name: Verify formatting
+        run: cargo fmt --all -- --check
+      - name: Clippy
+        run: cargo clippy --locked --workspace --all-targets --target ${{ matrix.target }} -- -D warnings
+      - name: Unit and subprocess tests
+        run: cargo test --locked --workspace --target ${{ matrix.target }}
+      - name: Verify standalone plugin API package
+        run: cargo package --locked -p finch-plugin-api
+      - name: Fetch pinned PDFium (Windows)
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          ./scripts/fetch-pdfium.ps1 -Platform '${{ matrix.platform }}'
+          "FINCH_PDFIUM_PATH=$((Resolve-Path runtime/pdfium/bin/pdfium.dll).Path)" >> $env:GITHUB_ENV
+      - name: Fetch pinned PDFium (macOS)
+        if: runner.os == 'macOS'
+        run: |
+          sh scripts/fetch-pdfium.sh '${{ matrix.platform }}'
+          echo "FINCH_PDFIUM_PATH=$PWD/runtime/pdfium/lib/libpdfium.dylib" >> "$GITHUB_ENV"
+      - name: Real PDFium integration
+        run: cargo test --locked -p finch-pdf --tests --target ${{ matrix.target }} -- --ignored --nocapture
+      - name: Release build
+        run: cargo build --locked --release --workspace --target ${{ matrix.target }}
+      - name: Package Windows
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: ./scripts/package.ps1 -Target '${{ matrix.target }}' -SkipBuild
+      - name: Package macOS
+        if: runner.os == 'macOS'
+        run: sh scripts/package-macos.sh '${{ matrix.target }}' --skip-build
+      - name: Save development packages
+        uses: actions/upload-artifact@v4
+        with:
+          name: Finch-${{ matrix.platform }}
+          path: |
+            dist/*.zip
+            dist/*.zip.sha256
+          if-no-files-found: error
+          retention-days: 14

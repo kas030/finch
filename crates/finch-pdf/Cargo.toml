@@ -1,0 +1,11 @@
+[package]
+name = "finch-pdf"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+finch-core = { path = "../finch-core" }
+crossbeam-channel = "0.5"
+pdfium-render = { version = "=0.9.4", default-features = false, features = ["pdfium_7881"] }
+thiserror = "2"

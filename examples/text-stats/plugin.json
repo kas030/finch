@@ -1,0 +1,12 @@
+{
+  "id": "finch.text-stats",
+  "name": "Text statistics / 文本统计",
+  "version": "0.1.0",
+  "api_version": 1,
+  "executables": {
+    "windows-x86_64": "finch-text-stats.exe"
+  },
+  "commands": [
+    {"id": "count-selection", "title": "Count selected text / 统计选中文字"}
+  ]
+}

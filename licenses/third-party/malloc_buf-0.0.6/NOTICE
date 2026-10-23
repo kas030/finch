@@ -1,0 +1,9 @@
+malloc_buf 0.0.6
+Author declared in Cargo.toml: Steven Sheldon
+License declared in Cargo.toml: MIT
+Upstream source: https://github.com/SSheldon/malloc_buf/tree/a7811e5f4c6f9685dd57ad9bfe34e9bf6b0ba4f9
+
+The published package and matching upstream revision contain no standalone
+license file. LICENSE-MIT-STANDARD is the unmodified SPDX standard MIT license
+text, not an upstream copyright notice. Its template placeholders are part of
+the standard license text; no copyright year has been invented.

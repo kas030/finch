@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.pdf binary
+*.png binary
+*.zip binary
+# These upstream files are byte-for-byte verified against sources.json.
+/licenses/third-party/** -text
+/licenses/third-party/** -whitespace
