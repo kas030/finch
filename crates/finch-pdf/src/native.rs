@@ -242,7 +242,10 @@ unsafe extern "C" fn read_block(
         // invokes callbacks synchronously on the actor thread, never concurrently.
         let file = unsafe { &mut *parameter.cast::<File>() };
         let output = unsafe { std::slice::from_raw_parts_mut(buffer, size as usize) };
-        file.seek(SeekFrom::Start(position as u64))
+        // C unsigned long is 32-bit on Windows and 64-bit on 64-bit Unix.
+        #[allow(clippy::unnecessary_cast)]
+        let offset = position as u64;
+        file.seek(SeekFrom::Start(offset))
             .and_then(|_| file.read_exact(output))
             .is_ok() as c_int
     }))
