@@ -31,6 +31,8 @@ pub struct Config {
     pub smoke: bool,
 }
 
+// Windows defaults to software rendering; deriving would lose that platform default.
+#[allow(clippy::derivable_impls)]
 impl Default for Config {
     fn default() -> Self {
         Self {
